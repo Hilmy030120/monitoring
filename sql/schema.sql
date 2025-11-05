@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS data_vms (
+CREATE TABLE IF NOT EXISTS users (
   id SERIAL PRIMARY KEY,
   provider TEXT NOT NULL,
   ping_time_utc TIMESTAMP DEFAULT now(),
